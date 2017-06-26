@@ -1,0 +1,152 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #BE7459;
+}
+
+.brown {
+  position: relative;
+  margin: 150px auto;
+  width: 450px;
+  height: 380px;
+}
+
+.brown .face {
+  position: absolute;
+  bottom: 0;
+  width: 450px;
+  height: 367px;
+  border: 10px solid #000;
+  border-radius: 100%;
+  background: #6C483B;
+}
+.brown .ear {
+  position: absolute;
+  top: -20px;
+  width: 120px;
+  height: 130px;
+  border: 10px solid #000;
+  border-radius: 100%;
+  background: #6C483B;
+}
+
+.brown .ear.left {
+  left: 45px;
+  transform: rotate(-50deg);
+}
+
+.brown .ear.right {
+  right: 45px;
+  transform: rotate(50deg);
+}
+
+.brown .innerear {
+  position: absolute;
+  top: 10px;
+  width: 72px;
+  height: 65px;
+  background: #4F302A;
+  border-radius: 100%;
+}
+
+.brown .innerear.left {
+  left: 67px;
+  transform: rotate(50deg);
+}
+
+.brown .innerear.right {
+  right: 67px;
+  transform: rotate(-50deg);
+}
+
+.brown .eye {
+  position: absolute;
+  top: 130px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #000;
+}
+
+.brown .eye.left {
+  left: 170px;
+}
+
+.brown .eye.right {
+  right: 170px;
+}
+
+.brown .nose {
+  position: absolute;
+  top: 170px;
+  margin-left: -15px; 
+  left: 50%;
+  width: 30px;
+  height: 25px;
+  border-radius: 13px 13px 25px 25px;
+  background: #000;
+  z-index: 1;
+}
+
+.brown .nose_bg {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  height: 120px;
+  border-radius: 100%;
+  background: #E3C9BB;
+}
+
+.brown .mouth_1 {
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  margin-left: -5px;
+  height: 30px;
+  border: 5px solid #000;
+}
+
+.brown .mouth_2 {
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  margin-left: -13px;
+  height: 45px;
+  border: 5px solid #000;
+  border-radius: 40%;
+  transform: rotate(30deg);
+}
+
+.brown .mouth_3 {
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  margin-left: 3px;
+  height: 35px;
+  border: 5px solid #000;
+  border-radius: 40%;
+  transform: rotate(-40deg);
+}
+
+.brown:hover .eye {
+  top: 180px;
+}
+.brown:hover .nose_bg {
+  top: 210px;
+}
+.brown:hover .nose {
+  top: 220px;
+}
+.brown:hover .mouth_1 {
+  top: 240px;
+}
+.brown:hover .mouth_2 {
+  top: 260px;
+}
+.brown:hover .mouth_3 {
+  top: 260px;
+}
